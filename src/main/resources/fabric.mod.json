@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "modcompacter",
+  "version": "1.0.0",
+  "name": "Mod Compacter",
+  "description": "Compacts 8 blocks into 1 compacted block via a non-grid compacter block.",
+  "authors": ["raviraviravi98989-byte"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/modcompacter/icon.png",
+  "environment": "both",
+  "entrypoints": {
+    "main": [
+      "net.modcompacter.ModCompacter"
+    ],
+    "client": [
+      "net.modcompacter.client.ModCompacterClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*"
+  }
+}

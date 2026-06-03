@@ -1,0 +1,6 @@
+{
+  "type": "compaction",
+  "input": "minecraft:cobblestone",
+  "output": "modcompacter:compacted_cobblestone",
+  "count": 8
+}
